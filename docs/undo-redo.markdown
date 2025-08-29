@@ -1,4 +1,4 @@
-# Using undo and redo in OpenRefine
+# Using Undo and Redo in OpenRefine
 
 It's not uncommon to make a mistake, or to change your mind about something, when cleaning data. With this is mind, OpenRefine provides a very easy way to undo and redo any and all changes you've made. 
 

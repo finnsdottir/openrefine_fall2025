@@ -22,7 +22,7 @@ markdown_extensions:
 
 nav:
   - Introduction: index.md
-  - Land acknowledgement: land_acknowledgement.markdown
+  - Land Acknowledgement: land_acknowledgement.markdown
   - Getting started: starting.markdown
   - Facets: facets.markdown
   - Clustering: clusters.markdown

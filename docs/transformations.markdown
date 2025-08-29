@@ -1,4 +1,4 @@
-# Using transformations in OpenRefine
+# Using Transformations in OpenRefine
 Transforming data can also be a quick way to correct improperly formatted data all at once. OpenRefine includes a set of common transformations that you can use, and also allows for custom transformations. The common transformations include trimming leading and trailing whitespace, changing the case of text, and even changing the data type.  
 
 <figure markdown='span'>

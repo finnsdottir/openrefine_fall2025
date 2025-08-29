@@ -1,4 +1,4 @@
-# Filtering and sorting in OpenRefine
+# Filtering and Sorting in OpenRefine
 
 OpenRefine includes a set of functions that let you sort, filter, and exclude data. These tools allow to focus in on a subset of your data.
 

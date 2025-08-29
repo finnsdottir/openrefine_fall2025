@@ -1,4 +1,4 @@
-# Getting started in OpenRefine
+# Getting Started in OpenRefine
 
 *What is OpenRefine?* [OpenRefine](https://openrefine.org/) is a free, open-source tool for cleaning and working with messy data. 
 

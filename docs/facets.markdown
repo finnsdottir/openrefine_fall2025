@@ -1,4 +1,4 @@
-# Using facets in OpenRefine
+# Using Facets in OpenRefine
 
 OpenRefine includes a number of functions useful for cleaning and sorting data. In this lesson, we will explore how and when to use various facets, clustering techniques, and transformations. 
 

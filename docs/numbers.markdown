@@ -1,4 +1,4 @@
-# Working with numbers in OpenRefine
+# Working with Numbers in OpenRefine
 
 While OpenRefine is a really powerful for cleaning text data - through facets, transformations, and clusters - it can also be used effectively to deal with numbers. 
 

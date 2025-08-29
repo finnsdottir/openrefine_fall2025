@@ -1,4 +1,4 @@
-# Saving your work in OpenRefine
+# Saving your Work in OpenRefine
 Now that we've done all this work cleaning our data, we need to save it. As we saw when we learned about the **Undo/Redo** tab, OpenRefine keeps a log of every change we make to the dataset. This log is saved as a JSON (JavaScript Object Notation) file, and can be exported and applied to other files/projects. 
 
 ## Exporting and saving your script

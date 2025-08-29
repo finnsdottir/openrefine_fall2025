@@ -1,4 +1,4 @@
-# Clusters and clustering in OpenRefine
+# Clusters and Clustering in OpenRefine
 
 Clustering is another powerful way to identify errors in your data. 
 
