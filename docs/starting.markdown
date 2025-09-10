@@ -14,7 +14,7 @@ OpenRefine is also a great tool for working with data that requires privacy cons
 
 Download OpenRefine by following the instructions on their website: [openrefine.org/download](https://openrefine.org/download).
 
-Once you have downloaded OpenRefine, start by launching it from your applications. It should open as a window or tab in your default browseer. If it does not work, you can try navigaing to [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or [http://localhost:3333](http://localhost:3333) to launch the program. 
+Once you have downloaded OpenRefine, start by launching it from your applications. It should open as a window or tab in your default browseer. If it does not work, you can try navigating to [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or [http://localhost:3333](http://localhost:3333) to launch the program. 
 
 We will be using data from IMDB's collection of non-commercial [datasets on movies](https://developer.imdb.com/non-commercial-datasets/). This data has been messed up on purpose - to give you something to fix in this lesson! 
 
@@ -24,7 +24,7 @@ We will be using data from IMDB's collection of non-commercial [datasets on movi
 
 Once OpenRefine is launched, you will see an options to create, open, or import projects. For this lesson, we will be creating a new project using our "messy_movies" data. Our data is in a csv (comma separated values) format, but OpenRefine will also accept data in tsv (tab separated values), xls, xlsx, JSON, and XML formats.
 
-Click on **Create Project** and then on **This Computer**. From there, click on **Choose Files** and navigate to the messy_movies.csv file you downloaded earlier, and finally click **Next >>** to upload the data into OpenRefine.
+Click on `Create Project` and then on `This Computer`. From there, click on `Choose Files` and navigate to the messy_movies.csv file you downloaded earlier, and finally click `Next >>` to upload the data into OpenRefine.
 
 <figure markdown="span">
     ![image of creating a project](./content/creating-project.jpg)){width=800}
@@ -40,4 +40,4 @@ After uploading, OpenRefine will show you a preview of the data, giving you a ch
 
 This is a great opportunity to double check that the file type was correctly identified, that your data was correctly parsed, and that all your variables are correctly titled. 
 
-If everything loks right to you, you can click the **Create project >>** buton in the upper right corner. You now have a OpenRefine project!
+If everything loks right to you, you can click the `Create project >>` buton in the upper right corner. You now have a OpenRefine project!

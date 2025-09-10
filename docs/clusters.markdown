@@ -6,7 +6,7 @@ Clustering refers to the process of finding groups of values that could be alter
 
 OpenRefine has a number of [built-in clustering algorithms](https://openrefine.org/docs/technical-reference/clustering-in-depth) - feel free to play around with them and see what kinds of clusters come up.
 
-You can access the clustering function by clicking the button **Cluster** in the top right hand corner of the facet box.
+You can access the clustering function by clicking the button `Cluster` in the top right hand corner of the facet box.
 
 <figure markdown="span">
     ![image of the facet menu for primary genre](./content/genre-facet.jpg){width=800}
@@ -14,7 +14,7 @@ You can access the clustering function by clicking the button **Cluster** in the
 </figure>
 
 
-In the primary_genre text facet we created earlier, click the **Cluster** button. A pop-up window will appear. Towards the top of the window, you will find dropdown menus for the clustering method and keying function; for this exercise, we will start by using the default (**Key collision** and **Fingerprint**, respectively) but feel free to try different combinations and see if different clusters emerge later on.
+In the primary_genre text facet we created earlier, click the `Cluster` button. A pop-up window will appear. Towards the top of the window, you will find dropdown menus for the clustering method and keying function; for this exercise, we will start by using the default (**Key collision** and **Fingerprint**, respectively) but feel free to try different combinations and see if different clusters emerge later on.
 
 <figure markdown="span">
     ![image of clustering window](./content/clustering-window.jpg){width=800}
@@ -23,7 +23,7 @@ In the primary_genre text facet we created earlier, click the **Cluster** button
 
 !!! example "Practice"
 
-    Select the **cluster** button in the middle of the window. What clusters appear? 
+    Select the `cluster` button in the middle of the window. What clusters appear? 
 
 ??? note "Solution"
 
@@ -33,7 +33,7 @@ In the primary_genre text facet we created earlier, click the **Cluster** button
     - Sci-Fi <-> sci-fi
     - Comedy <-> comedy
     
-    Select the box to merge all, and then press **Merge selected & re-cluster**. It should not return anymore clusters. 
+    Select the box to merge all, and then press `Merge selected & re-cluster`. It should not return anymore clusters. 
 
 !!! example "Practice"
     Now, play around with the keying function and clustering method options. What other clusters appear, if any?

@@ -6,14 +6,14 @@ OpenRefine includes a number of functions useful for cleaning and sorting data. 
 
 Facets are a useful (and powerful!) tool within OpenRefine for getting a big picture understanding of your data. Facetting groups all like values in a column together, and allows you to filter and edit those values en masse. Facets can also help you visualize your data. 
 
-You can access the facetting options by clicking on the down arrow beside a variable title and then hovering over the **Facet** heading. 
+You can access the facetting options by clicking on the down arrow beside a variable title and then hovering over the `Facet` heading. 
 
 <figure markdown="span">
     ![image showing the facet menu](./content/facet_menu.jpg){width=800}
     <figcaption>Dropdown menu shows facet options</figcaption>
 </figure>
 
-The first facet option you should see is the **Text facet** option. A text facet groups all the identical text values in a column and creates a list in a box in the left margin with the unique text values and the number of times eaach value appears in the faceted column. 
+The first facet option you should see is the `Text facet` option. A text facet groups all the identical text values in a column and creates a list in a box in the left margin with the unique text values and the number of times eaach value appears in the faceted column. 
 
 <figure markdown="span">
     ![image of the facet menu for primary genre](./content/genre-facet.jpg){width=800}

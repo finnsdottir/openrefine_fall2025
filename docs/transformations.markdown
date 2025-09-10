@@ -7,12 +7,12 @@ Transforming data can also be a quick way to correct improperly formatted data a
 </figure>
 
 !!! example "Practice"
-    Let's say that we're interested in the distribution of movie releases over years. Recall that numeric facets will produce graphs - specifically, histograms. Hover over the arrow next to the **year** title, navigate to **Facet** and then to **Numeric facet**. What happens? 
+    Let's say that we're interested in the distribution of movie releases over years. Recall that numeric facets will produce graphs - specifically, histograms. Hover over the arrow next to the **year** title, navigate to `Facet` and then to `Numeric facet`. What happens? 
 
 ??? note "Solution"
     You will not be able to use a numeric facet on the **year** column. While the facet command will produce a facet box in the left hand margin, it will be empty. This is because the values in **year** are not formatted as numbers. 
 
-    To fix this problem, you will need to transform the year values into numbers. To do this, follow the procedure: **Facet** to **Common transforms** to **To number**. When you've transformed the values into numbers, the numeric facet you made earlier should auto-populate. You'll also notice that the values in the **year** column are now green.
+    To fix this problem, you will need to transform the year values into numbers. To do this, follow the procedure: `Facet` to `Common transforms` to `To number`. When you've transformed the values into numbers, the numeric facet you made earlier should auto-populate. You'll also notice that the values in the **year** column are now green.
 
 ## Trimming leading and trailing whitespace
 
@@ -27,7 +27,7 @@ The transformations function can also be used to trim leading and trailing white
 
 We can also use transformations to convert and clean data easily. For example, we can use transformations to turn our sets of writers’ IDs and names into clear lists of individual items. To do so, we will first need to remove the square brackets and quotation marks.
 
-This task will require using a custom transformation. Start by clicking the down arrow beside the **writer_names** variable title. Choose **Edit cells** and then **Transform**. This will open a pop up window for custom transformation. 
+This task will require using a custom transformation. Start by clicking the down arrow beside the **writer_names** variable title. Choose `Edit cells` and then `Transform`. This will open a pop up window for custom transformation. 
 
 <figure markdown='span'>
     ![image of custom transform window](./content/custom-transform.jpg){width=800}

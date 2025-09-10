@@ -7,9 +7,9 @@ When a table is imported into OpenRefine, all columns are automatically consider
 As a reminder, we can transform text values into numbers by...
 
 1. Navigating to the dropdown menu for the column;
-2. Navigating to **Edit cells**;
-3. Navigating to **Common transforms**; and
-4. Selecting **to number**
+2. Navigating to `Edit cells`;
+3. Navigating to `Common transforms`; and
+4. Selecting `to number`.
 
 Transform the remainder of the number columns that are formatted as text (**run_time**, **ave_rating**, **num_votes**). Once they are formatted to numbers, you should see the values turn green and change from left-justified to right-justified. 
 
