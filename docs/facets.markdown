@@ -13,7 +13,7 @@ You can access the facetting options by clicking on the down arrow beside a vari
     <figcaption>Dropdown menu shows facet options</figcaption>
 </figure>
 
-The first facet option you should see is the `Text facet` option. A text facet groups all the identical text values in a column and creates a list in a box in the left margin with the unique text values and the number of times eaach value appears in the faceted column. 
+The first facet option you should see is the `Text facet` option. A text facet groups all the identical text values in a column and creates a list in a box in the left margin with the unique text values and the number of times each value appears in the faceted column. 
 
 <figure markdown="span">
     ![image of the facet menu for primary genre](./content/genre-facet.jpg){width=800}

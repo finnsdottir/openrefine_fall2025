@@ -12,4 +12,11 @@ Through this short introductory lesson, you will learn:
 4. How to edit and transform your data; and,
 5. How to save your work and export your script. 
 
-This lesson is an adaptation of the Data Carpentry course "[OpenRefine for Social Science Data](https://datacarpentry.github.io/openrefine-socialsci/01-introduction.html)."
+!!!note ""
+    Instructor: [Maria Sigridur Finnsdottir, PhD]("mariasfinnsdottir.ca")
+    
+    This lesson is an adaptation of the Data Carpentry course "[OpenRefine for Social Science Data](https://datacarpentry.github.io/openrefine-socialsci/01-introduction.html)."
+
+    This work is licensed under a :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-nc: :fontawesome-brands-creative-commons-by: [Creative Commons Non-Commerical Attribution 4.0 International License]("https://creativecommons.org/licenses/by-nc/4.0/").
+
+<br>

@@ -27,7 +27,7 @@ Once OpenRefine is launched, you will see an options to create, open, or import 
 Click on `Create Project` and then on `This Computer`. From there, click on `Choose Files` and navigate to the messy_movies.csv file you downloaded earlier, and finally click `Next >>` to upload the data into OpenRefine.
 
 <figure markdown="span">
-    ![image of creating a project](./content/creating-project.jpg)){width=800}
+    ![image of creating a project](./content/creating-project.jpg){width=800}
     <figcaption>Create project with data from this computer</figcaption>
 </figure>
 
