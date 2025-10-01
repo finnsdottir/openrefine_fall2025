@@ -13,7 +13,7 @@ Through this short introductory lesson, you will learn:
 5. How to save your work and export your script. 
 
 !!!note ""
-    Instructor: [Maria Sigridur Finnsdottir, PhD]("mariasfinnsdottir.ca")
+    Instructor: [Maria Sigridur Finnsdottir, PhD]("https://mariasfinnsdottir.ca/")
     
     This lesson is an adaptation of the Data Carpentry course "[OpenRefine for Social Science Data](https://datacarpentry.github.io/openrefine-socialsci/01-introduction.html)."
 
