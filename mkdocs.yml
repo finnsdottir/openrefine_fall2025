@@ -24,7 +24,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       
 nav:
-  - Getting Started: index.md
+  - Introduction: index.md
+  - Getting Started: starting.md
   - Facets: facets.markdown
   - Clustering: clusters.markdown
   - Filtering & sorting: filtering.markdown
