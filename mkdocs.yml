@@ -25,7 +25,7 @@ markdown_extensions:
       
 nav:
   - Introduction: index.md
-  - Getting Started: starting.md
+  - Getting Started: starting.markdown
   - Facets: facets.markdown
   - Clustering: clusters.markdown
   - Filtering & sorting: filtering.markdown
