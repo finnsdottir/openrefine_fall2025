@@ -18,7 +18,7 @@ Once you have downloaded OpenRefine, start by launching it from your application
 
 We will be using data from IMDB's collection of non-commercial [datasets on movies](https://developer.imdb.com/non-commercial-datasets/). This data has been messed up on purpose - to give you something to fix in this lesson! 
 
-- Click here to download it: [messy_movies.csv](content/messy_movies.csv)
+- You can download the data here: [messy_movies.csv](content/new_messy_movies.csv)
 
 ## Creating a project
 
