@@ -1,5 +1,5 @@
 # Introduction to OpenRefine for the Humanities and Social Sciences
-This session will introduce participants to OpenRefine, a powerful, free and open source tool to work with large datasets. We will quickly work through how to use OpenRefine to effectively clean and format tabular data while automatically tracking any changes. 
+This session will introduce participants to OpenRefine, a powerful, free and open source tool to work with large datasets. We will cover how to use OpenRefine to effectively clean and format tabular data (text and numerical data) while automatically creating a log tracking our changes. 
 
 This session is suitable for beginners with no prior knowledge of OpenRefine. There are no prerequisite coding skills. While the examples and data used will be aimed at the Humanities and Social Sciences community, the session is open to anyone and everyone interested in learning about OpenRefine.
 
@@ -11,7 +11,6 @@ Through this short introductory lesson, you will learn:
 3. How to use facets and clusters to identify typos and mistakes in your data;
 4. How to edit and transform your data; and,
 5. How to save your work and export your script. 
-
 
 ## Download OpenRefine and the data 
 
@@ -28,4 +27,3 @@ We will be using data from IMDB's collection of non-commercial [datasets on movi
 
     This work is licensed under a :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-nc: :fontawesome-brands-creative-commons-by: [Creative Commons Non-Commerical Attribution 4.0 International License]("https://creativecommons.org/licenses/by-nc/4.0/").
 
-<br>
