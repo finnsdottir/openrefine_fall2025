@@ -1,5 +1,5 @@
 # Introduction to OpenRefine for the Humanities and Social Sciences
-This session will introduce participants to OpenRefine, a powerful, free and open source tool to work with large datasets. We will cover how to use OpenRefine to effectively clean and format tabular data (text and numerical data) while automatically creating a log tracking our changes. 
+This session will introduce participants to OpenRefine, a powerful, free and open source tool to work with large datasets. We will cover how to use OpenRefine to effectively clean and format tabular data (text and numerical data) while automatically creating a log tracking our changes. OpenRefine does all this while helping you get to know your data in depth. 
 
 This session is suitable for beginners with no prior knowledge of OpenRefine. There are no prerequisite coding skills. While the examples and data used will be aimed at the Humanities and Social Sciences community, the session is open to anyone and everyone interested in learning about OpenRefine.
 

@@ -27,11 +27,8 @@ nav:
   - Introduction: index.md
   - Getting Started: starting.markdown
   - Facets: facets.markdown
-  - Clustering: clusters.markdown
   - Filtering & sorting: filtering.markdown
-  - Transformations: transformations.markdown
-  - Working with numbers: numbers.markdown
-  - Undo & redo: undo-redo.markdown
+  - Clustering and transformations: clusters.markdown
   - Saving your work: scripts.markdown
 
 extra_css:

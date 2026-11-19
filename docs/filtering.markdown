@@ -1,23 +1,28 @@
 # Filtering and Sorting in OpenRefine
 
-OpenRefine includes a set of functions that let you sort, filter, and exclude data. These tools allow to focus in on a subset of your data.
+OpenRefine includes a set of functions that let you sort, filter, and include or exclude data. These tools allow you to focus in on a subset of your data and can be combined with other methods.
 
 ## Filtering
 
-Filtering in OpenRefine is a simple process. You can access the `Text filter` function by clicking the down arrow beside the variable title. 
+OpenRefine includes a built-in text filter, which you can find in the same dropdown menu as the facets we've been using.  
 
 <figure markdown="span">
-    ![image of the filter](./content/filter-menu.jpg){width=800}
-    <figcaption>The text filter function is found in the dropdown menu</figcaption>
+    ![image of the filter](./content/filter_menu.png){width=800}
+    <figcaption></figcaption>
 </figure>
 
-!!! example  "Practice"
-    Try filtering the **primary_genre** column. Select the `Text filter` option. You should see a filter box appear in the left hand marigin of your window. Start by typing **"fa"**. What happens? 
+Try filtering the **primary_genre** column. Select the `Text filter` option. You should see a filter box appear in the left hand marigin of your window. Start by typing **"fa"**. What happens? 
 
-??? note "Solution"
-    The text filter works in real time as you type. Once you've typed "fa" you should see your data restricted to only the family and fantasy genres. You can further narrow it down by typing more. 
+The text filter works in real time as you type. Once you've typed "fa" you should see your data restricted to only the family and fantasy genres. You can further narrow it down by typing more. 
 
 Continue typing **ntasy** (so that you now have "fantasy"). You should now only have 32 entries on your browser window. You have succesfully filtered your data by fantasy genre!
+
+Filters can be combined with facets. For example, let's take a look at the range of release dates for the fantasy movies in our dataset. Without removing the filter, create a timeline facet on the **year** variable. 
+
+???note solution
+    Navigate to the dropdown menu for the **year column**, then select `Facet` and `Timeline facet`. 
+
+What does this tell us about the date range for the fantasy movies in our dataset?
 
 Now, remove the filter before moving on to the next operations. 
 
@@ -26,30 +31,30 @@ Now, remove the filter before moving on to the next operations.
 
 ## Including and excluding
 
-Excluding variable values is another fast way to subset your data. You can do this by hovering your cursor over an entry in a facet. When you do, options to edit and include or exclude will appear. 
+Including and excluding variable values is another fast way to subset your data. You can do this by hovering your cursor over an entry in a facet. When you do, options to edit and include or exclude will appear. 
+
+Let's create a facet for **primary_genre** again. Hover over one of the entries in that facet and click on `include` when it appears. 
 
 <figure markdown="span">
-    ![image of the include option](./content/include.jpg){width=800}
+    ![image of the include option](./content/facet-include.png){width=800}
     <figcaption>The include button appears inside the facet</figcaption>
 </figure>
 
-!!! example  "Practice"
-    Choose any one of the entries in the **primary_genre** text facet. Hover over it, and click on `include` when it appears. 
-
-    You should see that your data is now restricted to just that one genre. Include a second genre - what happens now? 
+You should see that your data is now limited to just that one genre. Include a second genre of your choice - what happens now? 
 
 ??? note "Solution"
     When you include a second genre, your data will be filtered down to those two genres. The first will not be unselected.
 
-There are two options to clearing the filter put on by including genres. First, you can click on `exclude` beside the entry in the text facet. Try doing this to one of the entries you included earlier. 
+There are three options to clearing the filter put on by including genres. First, you can close the facet. 
+
+Next, you can click on `exclude` beside the entry in the text facet. Try doing this to one of the entries you included earlier. 
 
 <figure markdown="span">
-    ![image of excluding](./content/exclude-facet.jpg){width=800}
-    <figcaption>The exclude button appears inside the facet beside labels that have been included</figcaption>
+    ![image of excluding](./content/facet-exclude.png){width=800}
+    <figcaption></figcaption>
 </figure>
 
-
-Alternatively, you can click on the `reset` button in the top right hand corner of the facet box. Hitting this button will reset any and all inclusions you've made.
+Alternatively, you can click on the `reset` button in the top right hand corner of the facet box. Hit that button now, and it will reset any and all inclusions or exclusions you've made. 
 
 ## Sorting
 
@@ -57,32 +62,48 @@ Like filtering, sorting data is done through the column's dropdown menu (found b
 
 When you click on `Sort...` a pop up window will appear. In that window, you will get the choice to sory by text, numbers, dates, or booleans (true or false). You will also be able to choose where the blanks and errors should go in the sorted results. 
 
-<figure markdown="span">
-    ![image of sorting](./content/sort-menu.jpg){width=800}
-    <figcaption>The dropdown menu includes options for sorting</figcaption>
-</figure>
-
 Let's try sorting by text and by numbers. 
 
-First, sort **primary_genre** by text. When you select `text` in the sorting pop up window, you will have the option of whether to sort from **a to z**, or **z to a**. Leave this at the default of **a to z**. 
+First, sort **primary_genre** by text. When you select `text` in the sorting pop up window, you will have the option of whether to sort from **a to z**, or **z to a**. Leave this at the default of **a to z**. Also leave the order of values, errors and blanks at the default.
+
+<figure markdown="span">
+    ![image of excluding](./content/sort-menu.png){width=800}
+    <figcaption></figcaption>
+</figure>
 
 Second, sort **run_time** by number. Sort it from **largest first**. You'll also see an option to `sort by this column alone`. Leave it blank in this case, in order to sort the data by both **run_time** and **primary_genre**. You should now see the longest Action movie at the top of your table (*The Tiger and the Female*, at 180 minutes).
 
 When you return to a column that you have already sorted, your options under `Sort...` will be slightly different. Now, you will see an option to `Sort...` (which will allow you to change your sorting options), `Reverse` (which will reverse the direction of the preexisting sort) , and `Remove sort` (this one is pretty self-explanatory).
 
 <figure markdown="span">
-    ![image of the new sort](./content/extra-sort.jpg){width=800}
-    <figcaption>When you select "sort" on an already sorted column, the options change</figcaption>
+    ![image of the new sort](./content/sort_again_menu.png){width=800}
+    <figcaption></figcaption>
 </figure>
 
-!!! example  "Practice"
-    Let's say we want to find out what the shortest movie in the dataset it, irrespective of genre. 
+Let's say we want to find out what the shortest movie in the dataset it, irrespective of genre. To do this, we'll need to remove the sort on primary genre, and reverse the sort on movie runtime. Give it a try! What is the shortest movie in the dataset? 
 
-    To do this, first navigate to the dropdown menu for **run_time** and select `Sort...` and then `Reverse`. Next, remove the sort on **primary_genre**.
+???note "Solution"
+    First, navigate to **primary_genre**, open the dropdown menu, hover over `Sort...` and select `Remove sort`.
 
-    What is the shortest movie? 
+    Now, navigate to the dropdown menu for **run_time**, hover over `Sort...` and select `Reverse`. 
 
-??? note "Solution"
-    To remove the sort on **primary_genre**, you will need to navigate to the column dropdown menu, then to `Sort...`, and then finally to select `Remove sort`.
-    
-    When you've done all that, you should find that the drama film *Szpieg* is the shortest movie, at only 25 minutes. 
+    You should now get the movie "Szpieg" at the top of the table. This is the shortest movie in the dataset, at only 25 minutes long.
+
+# Using Undo and Redo in OpenRefine
+
+It's not uncommon to make a mistake, or to change your mind about something, when cleaning data. With this is mind, OpenRefine provides a very easy way to undo and redo any and all changes you've made. 
+
+In the left hand pane, you should see a tab labelled **Undo/Redo**. Click on it. 
+
+<figure markdown="span">
+    ![image of undo tab](./content/undo-redo.png){width=800}
+    <figcaption></figcaption>
+</figure>
+
+Every operation you've run so far will be listed in this tab. To undo changes, all you have to do is click on a previous step. To redo that change, just click on it. 
+
+!!! example "Practice"
+   Try undoing the most recent change you made. Select a step before those changes and observe what happens to the variable values.  
+
+   Now, re-select the most recent change. Your data should go back to how it was. 
+

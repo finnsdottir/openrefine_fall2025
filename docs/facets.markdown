@@ -26,7 +26,7 @@ Click the down arrow button beside the **primary_genre** title and hover over `F
  A text facet should appear as a box, labelled with the variable being facetted, on the left hand side of your window. Your **primary_genre** facet should have 28 choices. These can be sorted either alphabetically by name, or by count in descending order. Scroll through the list of primary genres - do you notice any errors or issues? 
 
 <figure markdown="span">
-    ![image of the facet menu for primary genre](./content/text_facet.jpg){width=800}
+    ![image of the facet menu for primary genre](./content/text_facet.png){width=800}
     <figcaption></figcaption>
 </figure>
 
@@ -50,14 +50,14 @@ Let's try creating a numeric facet to get a sense of the range of average rating
 We can use transformations in OpenRefine to edit our data types. Go back to the same dropdown menu on the ratings column, but this time hover over `Edit cells` and then to `Common transforms`. From there, select `To number`. 
 
 <figure markdown="span">
-    ![image showing the facet menu](./content/ave_rating_transform.jpg){width=800}
+    ![image showing the facet menu](./content/ave_rating_transform.png){width=800}
     <figcaption></figcaption>
 </figure>
 
 The values in the **ave_rating** column should now have changed colour (to green) and alignment within the column (right-aligned). The facet for average rating should also have automatically updated to show a histogram of the average movie rating. 
 
 <figure markdown="span">
-    ![image showing the facet menu](./content/ave_rating_facet.jpg){width=800}
+    ![image showing the facet menu](./content/ave_rating_facet.png){width=800}
     <figcaption></figcaption>
 </figure>
 
@@ -74,7 +74,9 @@ Beyond the four primary facet options (text, numeric, timeline, and scatterplot)
 
 One such useful customized facet is the facet by error. This will group your data by whether or not there are errors. Let's try making a facet by error for **runtime**. 
 
-On my end, a facet appears in the left side pane, but with only one item ("false") and a count of 4884. This means that there are no errors in any of the 4884 rows in my dataset. 
+On my end, a facet appears in the left side pane, but with only one item ("false") and a count of 4884. This means that there are no errors in any of the 4884 rows in my dataset.
+
+You can close a facet by clicking the `x` in the top right corner of the facet. 
 
 Faceting is just one way to identify and correct errors. OpenRefine also allows us to use transformations and clustering, sometimes in conjunction with facets, to do that. 
 
