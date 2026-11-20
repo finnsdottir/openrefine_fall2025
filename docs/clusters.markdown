@@ -1,4 +1,6 @@
-# Clusters and Clustering in OpenRefine
+# Clusters and Transformations
+
+In addition to the facetting, filtering, and sorting tools we've covered, you can also use OpenRefine's built-in clustering methods and transformation tools to inspect and clean your data. 
 
 Clustering is another powerful way to identify errors in your data. 
 

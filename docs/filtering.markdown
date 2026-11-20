@@ -102,8 +102,13 @@ In the left hand pane, you should see a tab labelled **Undo/Redo**. Click on it.
 
 Every operation you've run so far will be listed in this tab. To undo changes, all you have to do is click on a previous step. To redo that change, just click on it. 
 
-!!!note "Practice"
-   Try undoing the most recent change you made. Select a step before those changes and observe what happens to the variable values.  
+Let's practice undoing a change by trying out another one of OpenRefine's column editing tools. Navitage to the **genres** variable and hover over `Edit column`. Select `Split into several columns...`. This will open a pop up window where you can specify how to split the column values up (by a separator or by number of characters), limit how many columns to create, and determine whether to delete the original column. Leave these at their defaults and click ok.
 
-   Now, re-select the most recent change. Your data should go back to how it was. 
+<figure markdown="span">
+    ![image of split column menu](./content/split_column_menu.png){width=800}
+    <figcaption></figcaption>
+</figure>
 
+You should now have three columns titled **genres 1**, **genres 2**, and **genres 3**. For some of the rows, **genres 2** and **genres 3** will be blank (in these cases, the movie only has one or two genres). 
+
+Now, let's undo this change and return to our dataset with just the one **genres** column. Navigate to the **Undo/Redo** tab and select the action one above the split column action we just undertook. Your dataset should automatically revert. 
