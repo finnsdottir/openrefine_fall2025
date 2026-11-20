@@ -5,12 +5,8 @@ Now that we've done all this work cleaning our data, we need to save it. As we s
 
 To export your script, you need to navigate to the **Undo/Redo** section of the tab in the left hand margin. Once there, click on `Extract...`. That will prompt a pop up window with the script of all changes made to the data. From there, click `Export`, and your script should automatically download as a JSON.
 
-<figure markdown='span'>    
-    ![image of the script box](./content/export-script.jpg){width=800}
-    <figcaption>You can save your script by exporting it</figcaption>
-</figure>
-
-If you were starting a new project, and wanted to use this same script (or any other that you had exported and saved), you would simply click on `Apply...` instead of `Extract...`. You would then get a pop up window with the option to either copy and paste a script or upload a script file. 
+!!!note "Note"
+    If you were starting a new project, and wanted to use this same script (or any other that you had exported and saved), you would simply click on `Apply...` instead of `Extract...`. You would then get a pop up window with the option to either copy and paste a script or upload a script file. 
 
 ## Exporting and saving your data
 

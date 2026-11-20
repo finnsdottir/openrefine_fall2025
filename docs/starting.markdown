@@ -11,6 +11,8 @@ OpenRefine is user-friendly and powerful. It is a great tool for that first step
 
 OpenRefine is also a great tool for working with data that requires privacy considerations. OpenRefine works by running a small server on your computer, meaning that all data is kept on your personal computer. It does not require an internet connection, even though it does open a browser window to allow easy interaction with the software. This means that you can use it locally and offline to clean data that you want to keep secure. 
 
+Today, we're going to use OpenRefine to both clean the [messy_movies.csv](content/messy_movies.csv) dataset and to answer some basic questions about the data. 
+
 ## Launching OpenRefine
 
 How you launch OpenRefine depends on what operating system you use. OpenRefine's [documentation](https://openrefine.org/docs/manual/running) includes detailed instructions for how to launch the program, but here are the basics for Mac and Windows systems: 
