@@ -57,7 +57,7 @@ Close the clustering window. Now you should see that your **primary_genre** face
 Transforming data can also be a quick way to correct improperly formatted data all at once. OpenRefine includes a set of common transformations that you can use, and also allows for custom transformations. We've already encountered transformations that change data types, but there are also transformations that trim leading and trailing whitespace, or change the case of text. You can also write your own custom transformations.
 
 <figure markdown='span'>
-    ![image of the transformation options](./content/transform_menu.png){width=800}
+    ![image of the transformation options](./content/transform-menu.png){width=800}
     <figcaption></figcaption>
 </figure>
 

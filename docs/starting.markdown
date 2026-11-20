@@ -63,7 +63,7 @@ If everything looks right to you, you can click the `Create project >>` buton in
 Once you've created your project, it will automatically open as a interactive table. Each of your variables will make up a column, with every observation getting a row. Beside each column title (variable name) you'll see a down arrow button. Clicking this button will reveal a drop down menu with a number of tools for cleaning and inspecting your data. You can also choose how many rows are shown, and navigate between pages of rows. 
 
 <figure markdown="span">
-    ![image of creating a project](./content/project-landing.jpg){width=800}
+    ![image of creating a project](./content/project-landing.png){width=800}
     <figcaption></figcaption>
 </figure>
 
