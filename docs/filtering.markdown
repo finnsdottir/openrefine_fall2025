@@ -89,7 +89,7 @@ Let's say we want to find out what the shortest movie in the dataset it, irrespe
 
     You should now get the movie "Szpieg" at the top of the table. This is the shortest movie in the dataset, at only 25 minutes long.
 
-# Using Undo and Redo in OpenRefine
+## Correcting mistakes
 
 It's not uncommon to make a mistake, or to change your mind about something, when cleaning data. With this is mind, OpenRefine provides a very easy way to undo and redo any and all changes you've made. 
 
@@ -102,7 +102,7 @@ In the left hand pane, you should see a tab labelled **Undo/Redo**. Click on it.
 
 Every operation you've run so far will be listed in this tab. To undo changes, all you have to do is click on a previous step. To redo that change, just click on it. 
 
-!!! example "Practice"
+!!!note "Practice"
    Try undoing the most recent change you made. Select a step before those changes and observe what happens to the variable values.  
 
    Now, re-select the most recent change. Your data should go back to how it was. 
