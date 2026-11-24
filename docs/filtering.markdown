@@ -105,7 +105,7 @@ Every operation you've run so far will be listed in this tab. To undo changes, a
 Let's practice undoing a change by trying out another one of OpenRefine's column editing tools. Navitage to the **genres** variable and hover over `Edit column`. Select `Split into several columns...`. This will open a pop up window where you can specify how to split the column values up (by a separator or by number of characters), limit how many columns to create, and determine whether to delete the original column. Leave these at their defaults and click ok.
 
 <figure markdown="span">
-    ![image of split column menu](./content/split_column_menu.png){width=800}
+    ![image of split column menu](./content/split-column-menu.png){width=800}
     <figcaption></figcaption>
 </figure>
 

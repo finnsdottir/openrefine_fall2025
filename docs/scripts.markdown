@@ -12,7 +12,7 @@ To export your script, you need to navigate to the **Undo/Redo** section of the 
 
 OpenRefine allows you to save your data as a new file (leaving your original data untouched) by exporting. To do so, you will need to navigate to the `Export` button in the top right hand corner of your browser window. 
 
-From there, you will be able to select the format in which you would like your data to be exported. There are several format options to choose from, but I would genreally recommend choosing CSV (comma-separated values). 
+From there, you will be able to select the format in which you would like your data to be exported. There are several format options to choose from, but I would generally recommend choosing CSV (comma-separated values). 
 
 Depending on your browser settings, your new file should automatically download. OpenRefine will name it after your project. 
 
